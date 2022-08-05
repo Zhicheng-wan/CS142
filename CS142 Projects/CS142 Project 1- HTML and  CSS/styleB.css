@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: row;
+    
+    /* front, size*/
+    font-family: Tahoma;
+    font-size: 40px;
+
+    line-height: 1%;
+
+    /* text in the center of block */
+}
+
+/* different colors */
+.color1 {
+    
+    background: #eeeff2;
+    height: 150px;
+    width: 100px;
+    
+    /* dots */
+    border-left-width: 10px;
+    border-left-color: #D0D0FF;
+    border-left-style: dotted;
+
+    margin-right: 10px;
+    padding-left: 10px;
+
+    cursor: grab;
+
+}
+.color2 {
+    
+    background: #eeeff2;
+
+    height: 150px;
+    width: 100px;
+
+     /* dots */
+    border-left-width: 10px;
+    border-left-color: #D0D0FF;
+    border-left-style: dotted;
+
+    margin-right: 10px;
+    padding-left: 10px;
+
+    cursor: grab;
+
+}
+.color3 {
+    vertical-align: bottom;
+    background: #eeeff2;
+
+    height: 150px;
+    width: 100px;
+
+    /* dots */
+    border-left-width: 10px;
+    border-left-color: #D0D0FF;
+    border-left-style: dotted;
+    padding-left: 10px;
+
+    /* keep on bot right */
+    position: fixed;
+    bottom: 10;
+    right: 10;
+
+    cursor: grab;
+}
+
+.color1:hover, .color2:hover, .color3:hover{
+    background-color: yellow;
+    color: goldenrod;
+}
