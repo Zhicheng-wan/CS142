@@ -1,5 +1,5 @@
 # CS142
-Self-taught Stanford University WEB programming coure from [CS142: Web Applications (Spring 2022)](https://web.stanford.edu/class/cs142/index.html)
+Self-taught Stanford University WEB programming course from [CS142: Web Applications (Spring 2022)](https://web.stanford.edu/class/cs142/index.html)
 
 # Course Content
 - HTML, CSS
